@@ -56,4 +56,26 @@ Algoritmos
    mostrar"el total es:", total
    fin
 ```        
-![alt text](i2.png)
+![alt text](i2.png)  
+  
+
+ejemplo 4.5
+```
+inicio 
+escribir "estatura"
+suma=0
+num_per=0
+estatura=1
+mientras estatura > 0
+ leer estatura
+ mientras estatura > 0
+ leer estatura
+ si estatura > 0
+ suma=suma+estatura
+ num_per=num_per+1
+ fin mientras
+si num_per diferente de 0
+prom=suma/num_per
+Escribir prom
+fin 
+```
