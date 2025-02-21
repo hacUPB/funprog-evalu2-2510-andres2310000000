@@ -78,4 +78,64 @@ si num_per diferente de 0
 prom=suma/num_per
 Escribir prom
 fin 
+```    
+
+  
+
+2.    
 ```
+inicio
+escriba"ingrese la cantidad de tela en metros:"
+leer tela
+map=tela/0.0254
+mostrar" la cantidad en puelgadas es:",map
+fin
+```  
+
+3.  
+```
+inicio
+escriba"ingrese cateto_ad:"
+leer cateto_ad
+escriba"ingrese cateto_op:"
+leer cateto_op
+h=SQRT(cateto_ad^2+cateto_op^2)
+mostrar" la hipotenusa es:",h
+fin
+```  
+
+4.  
+```
+incio
+escriba "ingresar año_a actual:"
+escriba "ingresar mes_a actual:"
+escriba "ingresar dia_a actual:"
+leer año_a
+leer mes_a
+leer dia_a
+escriba "ingresar año de nacimiento:"
+escriba "ingresar mes de nacimiento:"
+escriba "ingresar dia de nacimiento:"
+leer año
+leer mes
+leer dia
+
+ a=año_a-año
+  si mes<mes_a
+   a=a-1
+   mostrar"usted no ha cumplido años, edad:",a
+  si no
+  mostrar"usted ya cumplio años, edad",a
+  fin si
+ si dia>dia_a
+  mostrar"usted ya cumplio años, edad",a
+ si no
+  mostrar"usted no ha cumplido años, edad",a
+si dia=dia_a
+mostrar"feliz cumpleaños, edad:",a
+
+```
+   
+  
+
+   
