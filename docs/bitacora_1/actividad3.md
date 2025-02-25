@@ -120,21 +120,65 @@ leer año
 leer mes
 leer dia
 
- a=año_a-año
-  si mes<mes_a
+a=año_a-año
+si mes<mes_a
    a=a-1
    mostrar"usted no ha cumplido años, edad:",a
-  si no
-  mostrar"usted ya cumplio años, edad",a
-  fin si
+si mes=mes_a
+ hacer
  si dia>dia_a
   mostrar"usted ya cumplio años, edad",a
- si no
+ si dia=dia_a
+ mostrar"feliz cumpleaños, edad:",a
+  si no
   mostrar"usted no ha cumplido años, edad",a
-si dia=dia_a
-mostrar"feliz cumpleaños, edad:",a
+    
+si no
+  mostrar"usted ya cumplio años, edad",a
+fin si
+fin
+```   
 
+5.  
 ```
+inicio
+escriba"ingrese las horas si que son menores o iguales a 40:"
+leer horas
+escriba"ingrese las horas extras:"
+leer horas_extras
+escriba"ingrese precio de la hora"
+leer precio 
+sueldo=horas*precio
+ si horas_extra<6
+  prc=sueldo+horas_extra*2
+ si horas>5 ^ horas<11
+  prc=sueldo+horas_extra*3
+ si horas>10
+  mostrar "no esta permitido"
+ fin si 
+ mostrar "su suedo semanal es:",prc
+fin
+```    
+6.  
+```
+innicio
+escriba"ingrese numeros:"
+n=0
+p=0
+ne=0
+si numeros=0
+ ne=ne+1
+si numeros>0
+ p=p+1
+si no
+ n=n+1 
+ fin si
+ mostrar "los 0 son:",ne
+ mostrar "los p son:",p
+ mostrar "los n son:",n
+fin 
+```
+
    
   
 
