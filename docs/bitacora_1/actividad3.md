@@ -142,21 +142,24 @@ fin
 5.  
 ```
 inicio
-escriba"ingrese las horas si que son menores o iguales a 40:"
-leer horas
-escriba"ingrese las horas extras:"
-leer horas_extras
-escriba"ingrese precio de la hora"
-leer precio 
-sueldo=horas*precio
- si horas_extra<6
-  prc=sueldo+horas_extra*2
- si horas>5 ^ horas<11
-  prc=sueldo+horas_extra*3
- si horas>10
-  mostrar "no esta permitido"
- fin si 
- mostrar "su suedo semanal es:",prc
+    ecriba "Ingrese las horas trabajadas en la semana: "
+    leer horast
+    escriba "Ingrese el pago por hora: "
+    leer pagoph
+
+    si horast > 50 
+      Escribir "No se permite trabajar más de 50 horas."
+    si no
+      pago=0
+    si horast <= 40 
+      sueldo=horast*pagoph
+    si 
+      horast <= 45 
+      pago=(40*pagoph) + ((horast-40)*(2*pagoph))
+    si horast <= 50 
+      pago=(40*pagoph)+          (5*(2*pagoph))+((horast - 45)*(3*pagoph))
+    fin Si
+mostrar "El sueldo semanal es: ", sueldo
 fin
 ```    
 6.  
@@ -178,7 +181,25 @@ si no
  mostrar "los n son:",n
 fin 
 ```
-
+7.  
+```
+incio
+n=3
+x=1
+acum=0
+mientras x<=365
+hacer
+x=x+1
+a=3^x
+acum=a+acum
+mostrar"el total ahorrdo si se sigue la secuenca es:",acum
+fin
+```
+8.  
+```
+imicio
+fin
+```
    
   
 
