@@ -1,4 +1,3 @@
-
 1. 
 Un computador es una máquina electrónica programable diseñada para procesar,    almacenar y manipular información digital. Está compuesta por dos partes   
 fundamentales, el hardware y el software.  
@@ -64,5 +63,4 @@ Software de desarrollo: Son las herramientas utilizadas por programadores para c
   [https://www.esic.edu/rethink/marketing-y-comunicacion/que-es-codificacion-datos-tipos-ejemplos-c]  
 
   ¿Cuáles son las unidades de medida de datos en un computador?  
-Bit, Byte, Kilobyte, Megabyte, Gigabyte, Terabyte.   
-
+Bit, Byte, Kilobyte, Megabyte, Gigabyte, Terabyte.

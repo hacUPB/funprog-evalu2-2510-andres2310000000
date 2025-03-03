@@ -15,7 +15,7 @@ Algoritmos
  mostrar"serian:",total
  fin 
 ```  
-![alt text](image.png)
+![alt text](./images/image.png)
 
 2. Un almacén de ropa tiene una promoción: por compras superiores a $250 000 se les aplicará un descuento de 15%, de caso contrario, sólo se aplicará un 8% de descuento. Realice un algoritmo para determinar el precio final que debe pagar una persona por comprar en dicho almacén y de cuánto es el descuento que obtendrá. Represéntelo mediante el pseudocódigo y el diagrama de flujo.  
 
@@ -33,7 +33,7 @@ Algoritmos
   mostrar"precio con descuento aplicado:",total
  fin 
 ```    
-![alt text](image-1.png)  
+![alt text](./images/image-1.png)  
 
 3. El director de una escuela está organizando un viaje de estudios, y requiere determinar cuánto debe cobrar a cada alumno y cuánto debe pagar a la compañía de viajes por el servicio. La forma de cobrar es la siguiente: si son 100 alumnos o más, el costo por cada alumno es de $65.00; de 50 a 99 alumnos, el costo es de $70.00, de 30 a 49, de $95.00, y si son menos de 30, el costo de la renta del autobús es de $4000.00, sin importar el número de alumnos.  
 
@@ -56,5 +56,5 @@ Algoritmos
    mostrar"el total es:", total
    fin
 ```        
-![alt text](i2.png)  
+![alt text](./images/i2.png)  
   
