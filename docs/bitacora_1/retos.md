@@ -8,13 +8,14 @@ Diagrama de flujo:
 Pseudocodigo: 
 ```
 inicio
-ingrese x1 , y1
+escriba" x1 , y1"
 leer x1 , y1
-ingrese x2 , y2
+escriba" x2 , y2"
 leer x2 , y2
 
 calculo SQRT((x2-x1)^2+(y2-y1)^2)
 mostrar "la distancia es",calculo
+fin
 ```
 2.    
 Analisis:  
@@ -120,7 +121,7 @@ inicio
       sueldo=(40*pagoph)+((horast-40)*(2*pagoph))
     si horast <= 50 
       sueldo=(40*pagoph)+(5*(2*pagoph))+((horast - 45)*(3*pagoph))
-    fin Si
+    fin si
 mostrar "El sueldo semanal es: ", sueldo
 fin
 ```    
