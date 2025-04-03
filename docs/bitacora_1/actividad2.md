@@ -12,7 +12,7 @@ Audio: Muestras numéricas regulares capturadas desde señales analógicas conve
 
 
  3.   
- ![alt text](./i1.png)  
+ ![alt text](./images/i1.png)  
 
  4.   
  El trabajo de George Boole es fundamental debido a su desarrollo del álgebra booleana, que permite expresar operaciones lógicas mediante variables binarias (verdadero/falso o 0/1). Esto ha sido crucial para el diseño de circuitos digitales y sistemas informáticos modernos, sentando las bases para la computación contemporánea.   
